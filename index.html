@@ -8,9 +8,17 @@
 </head>
 <body>
   <div id="main-content">
-    <h1>Flatiron Task Lister</h1>
+    <div id="top-half">
+      <h1>Flatiron Task Lister</h1>
+      <form class="creat-list">
+        <p>Add a new list:</p>
+        <input id="new-title" type="text" placeholder="title">
+        <input id="submit-list" type="submit" value="Create New List">
+      </form>
+    </div>
 
-    <div id="lists"></div>
+    <div id="lists">
+    </div>
 
     <script src="src/index.js"></script>
     <script src="src/app.js"></script>
